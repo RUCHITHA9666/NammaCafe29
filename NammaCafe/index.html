@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Cafe 29</title>
+    <style>
+        body {
+              background: url('background.jpg')no-repeat center center fixed;
+              background-size: cover;
+              background-blend-mode: overlay;
+              background-color: rgba(255,255,0,0.3);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f7e100;
+            text-align: center;
+            padding: 10px
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(90deg, #f7e100 50%, #fff 50%);
+        }
+        .hero-section h2 {
+            font-size: 2.5em;
+        }
+        .hero-section p {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .menu-section {
+            padding: 30px 20px;
+        }
+        .menu-section h3 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .menu-item h4 {
+            margin: 15px 0 5px;
+        }
+        .about-section, .chef-section {
+            padding: 30px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .about-section h3, .chef-section h3 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .about-section p, .chef-section p {
+            font-size: 1.2em;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+	<div style="display: flex;
+align-items: center; justify-content:
+space-between;">
+	    <!--Circular Logo -->
+	    <img src="images/logo.jpg" alt="Namma Cafe 29 logo" style="height:380px; margin-left: 240px; border-radius: 100%;object-fit: cover;">
+	    <!-- Title and Subtitle -->
+	    <div>
+                <h1 align="right"; style="margin: 0; font-size: 10em; color: #333;">Namma Cafe 29</h1>
+                <p style="margin: 5px 0 0; font-size: 1.5em; color: #555;">Experience the taste of India, China, and the World!</p>
+	    </div>
+	</div>
+    </header>
+
+    <section class="hero-section">
+        <h1>Welcome to Namma Cafe 29</h1>
+        <p font-size: 10em>Explore our exquisite collection of Indian, Chinese, Continental cuisines, and refreshing beverages.</p>
+        <a href="#menu" style="text-decoration: none; background-color: #333; color: #FF8300; padding: 10px 20px; border-radius: 5px;">Discover More</a>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h3>Our Menu</h3>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/indian_cusine.jpg" alt="Indian Food">
+                <h4>Indian Cuisine</h4>
+                <p>Enjoy the authentic flavors of India with our curated dishes.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/chinese_cusine.jpg" alt="Chinese Food">
+                <h4>Chinese Cuisine</h4>
+                <p>Savor the rich and bold flavors of Chinese delicacies.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/continental_cusine.jpg" alt="Continental Food">
+                <h4>Continental Cuisine</h4>
+                <p>Delight in our selection of elegant continental dishes.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Juices.jpg" alt="Juices">
+                <h4>Fresh Juices</h4>
+                <p>Refresh yourself with our seasonal and fresh juices.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/mojitos.jpg" alt="Mojito">
+                <h4>Mojitos</h4>
+                <p>Try our signature mojitos for the perfect chill.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h3>About Us</h3>
+        <p>Namma Cafe 29 brings together the best of global cuisines in a warm, welcoming ambiance. Come for the food, stay for the experience.</p>
+    </section>
+
+    <section class="chef-section">
+        <h3>Meet Our Expert Chef</h3>
+        <p>Our talented chef and team craft every dish with precision, ensuring a unique and delightful dining experience for all our guests.</p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Namma Cafe 29. All Rights Reserved. | Follow us on social media!</p>
+    </footer>
+</body>
+</html>
